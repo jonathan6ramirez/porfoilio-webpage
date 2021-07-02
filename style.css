@@ -1,0 +1,39 @@
+header {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+  box-shadow: 5px 1px #888888;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 99%;
+}
+p, h3 {
+  text-align: center;
+}
+ul {
+  text-align: left;
+  list-style-position: inside;
+}
+main {
+  /*background-image: url('images/background-photo.jpg');*/
+  margin-top: 50px;
+}
+
+hr {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.align {
+  text-align: center;
+}
+footer {
+  background-color: black;
+  color: white;
+}
