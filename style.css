@@ -1,27 +1,32 @@
+/* Makes the name and title pop out*/
 header {
   background-color: black;
   color: white;
   text-align: center;
-  padding-bottom: 10px;
-  box-shadow: 5px 1px #888888;
+  padding: 50px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 30px;
 }
+/* Centers the image dynamically*/
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 99%;
 }
+/* This aligns the paragraphs and h3 elements*/
 p, h3 {
   text-align: center;
+  margin: 20px;
 }
 ul {
+  height: 150px;
   text-align: left;
   list-style-position: inside;
+  padding: 5px;
 }
 main {
-  /*background-image: url('images/background-photo.jpg');*/
-  margin-top: 50px;
+  margin: 15px;
 }
 
 hr {
@@ -37,3 +42,11 @@ footer {
   background-color: black;
   color: white;
 }
+p {
+  font-size: 15px;
+}
+/* This changes the color of the links*/
+a:link    { color: blue;}
+a:visited { color: lightblue;}
+a:hover   { color: darkgreen;}
+a:active  { color: cyan;}
